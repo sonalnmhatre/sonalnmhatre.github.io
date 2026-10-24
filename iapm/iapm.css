@@ -1,0 +1,12 @@
+/* IAPM only: the approved shared stylesheet remains unchanged. */
+.iapm-page .iapm-interface-jump{margin:0 0 12px}
+.iapm-page .iapm-evidence{margin:32px 0 24px;max-width:100%;min-width:0}
+.iapm-page .iapm-evidence img{display:block;width:100%;height:auto;max-width:100%;object-fit:contain}
+.iapm-page .iapm-evidence figcaption{font-size:14px;line-height:1.6;color:var(--muted);max-width:900px;margin-top:14px}
+.iapm-page .image-detail-link{min-height:44px;display:inline-flex;align-items:center;overflow-wrap:anywhere}
+.iapm-page .case-section,.iapm-page .decision-grid>div{min-width:0}
+.iapm-page .case-meta dd,.iapm-page .annotations li{overflow-wrap:anywhere}
+.iapm-page .annotations li{scroll-margin-top:30px;margin-bottom:14px;line-height:1.65}
+.iapm-page .decision-grid p{max-width:560px}
+.iapm-page .confidential-disclosure{max-width:900px}
+@media(max-width:640px){.iapm-page .iapm-evidence{margin-top:24px}.iapm-page .iapm-evidence figcaption{font-size:13px}.iapm-page .case-next{gap:20px}.iapm-page .case-next a{max-width:100%;overflow-wrap:anywhere}}
