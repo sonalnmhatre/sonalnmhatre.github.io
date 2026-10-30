@@ -70,7 +70,7 @@ h1,h2,h3,h4{font-family:"Inter Tight","Inter",Arial,sans-serif;line-height:1.13;
 .section-contact .section-title{margin-bottom:32px}
 .section-contact>p{max-width:1080px;font-size:16px;line-height:1.5}
 .contact-pending{margin-top:20px;color:var(--muted);font-size:14px!important}
-.site-footer{padding:5px 0 27px}
+.site-footer{background:#e9ece7;border-top:1px solid #d4d8d0;padding:56px 0 34px}
 .footer-layout{display:grid;grid-template-columns:1fr 1fr;gap:12px 25px}
 .footer-name{font-size:17px}
 .footer-layout p{font-size:14px;margin:5px 0 0}
@@ -247,3 +247,6 @@ h1,h2,h3,h4{font-family:"Inter Tight","Inter",Arial,sans-serif;line-height:1.13;
 .shell>*{min-width:0}
 .figure-caption,.project-actions a,.contact-actions a{overflow-wrap:anywhere}
 @media(max-width:640px){.project-actions{gap:4px 20px}.contact-actions{gap:8px 24px}}
+
+/* Approved footer spacing at the existing mobile breakpoint. */
+@media(max-width:640px){.site-footer{padding:40px 0 28px}}
