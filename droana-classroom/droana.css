@@ -9,3 +9,18 @@
 .droana-page .droana-reading li{margin-bottom:14px}
 .droana-page #student-dashboard{scroll-margin-top:30px}
 @media(max-width:640px){.droana-page .droana-evidence{margin-top:24px}.droana-page .droana-evidence figcaption{font-size:13px}.droana-page .case-next{gap:20px}.droana-page .case-next a{max-width:100%;overflow-wrap:anywhere}}
+
+/* Selected interface: source-derived detail and readable editorial notes. */
+.droana-page .droana-student-support{margin:32px 0 0;max-width:100%}
+.droana-page .droana-student-layout{display:grid;grid-template-columns:minmax(0,420px) minmax(0,1fr);gap:clamp(32px,5vw,70px);align-items:center}
+.droana-page .droana-student-image{display:block;width:100%;max-width:420px;margin-inline:auto}
+.droana-page .droana-student-image img{display:block;width:100%;height:auto;max-width:100%}
+.droana-page .droana-student-notes{min-width:0;max-width:560px}
+.droana-page .droana-student-notes h3{font-size:26px;margin:0 0 24px}
+.droana-page .droana-student-notes p{font-size:16px;line-height:1.6}
+.droana-page .droana-student-notes ol{padding-left:24px;margin:28px 0 0}
+.droana-page .droana-student-notes li{padding-left:6px;margin-bottom:24px}
+.droana-page .droana-student-notes li p{margin:6px 0 0}
+.droana-page .droana-student-support figcaption{font-size:14px;line-height:1.6;color:var(--muted);max-width:900px;margin-top:24px}
+@media(max-width:800px){.droana-page .droana-student-layout{grid-template-columns:minmax(0,1fr)}.droana-page .droana-student-image{max-width:390px}.droana-page .droana-student-notes{max-width:100%}}
+@media(max-width:640px){.droana-page .droana-student-support{margin-top:24px}.droana-page .droana-student-notes h3{font-size:24px}.droana-page .droana-student-notes p{font-size:15px}.droana-page .droana-student-support figcaption{font-size:13px}}

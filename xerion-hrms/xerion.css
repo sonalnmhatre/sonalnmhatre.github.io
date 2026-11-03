@@ -1,0 +1,15 @@
+/* Xerion only: the approved shared stylesheet remains unchanged. */
+.xerion-page .iapm-interface-jump{margin:0 0 12px}
+.xerion-page .xerion-evidence{margin:32px 0 24px;max-width:100%;min-width:0}
+.xerion-page .xerion-evidence img{display:block;width:100%;height:auto;max-width:100%;object-fit:contain}
+.xerion-page .xerion-evidence figcaption{font-size:14px;line-height:1.6;color:var(--muted);max-width:900px;margin-top:14px}
+.xerion-page .image-detail-link{min-height:44px;display:inline-flex;align-items:center;overflow-wrap:anywhere}
+.xerion-page .case-section,.xerion-page .decision-grid>div{min-width:0}
+.xerion-page .case-meta dd,.xerion-page .annotations li{overflow-wrap:anywhere}
+.xerion-page .annotations li{scroll-margin-top:30px;margin-bottom:14px;line-height:1.65}
+.xerion-page .decision-grid p{max-width:560px}
+.xerion-page .confidential-disclosure{max-width:900px}
+@media(max-width:640px){.xerion-page .xerion-evidence{margin-top:24px}.xerion-page .xerion-evidence figcaption{font-size:13px}.xerion-page .case-next{gap:20px}.xerion-page .case-next a{max-width:100%;overflow-wrap:anywhere}}
+
+.xerion-page .case-header h1{overflow-wrap:anywhere}
+.xerion-page .case-meta>div{min-width:0}

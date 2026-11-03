@@ -1,0 +1,29 @@
+/* Playmity only: the approved shared stylesheet remains unchanged. */
+.playmity-page .iapm-interface-jump{margin:0 0 12px}
+.playmity-page .playmity-evidence{margin:32px 0 24px;max-width:100%;min-width:0}
+.playmity-page .playmity-evidence img{display:block;width:100%;height:auto;max-width:100%;object-fit:contain}
+.playmity-page .playmity-evidence figcaption{font-size:14px;line-height:1.6;color:var(--muted);max-width:900px;margin-top:14px}
+.playmity-page .image-detail-link{min-height:44px;display:inline-flex;align-items:center;overflow-wrap:anywhere}
+.playmity-page .case-section,.playmity-page .decision-grid>div{min-width:0}
+.playmity-page .case-meta dd,.playmity-page .annotations li{overflow-wrap:anywhere}
+.playmity-page .annotations li{scroll-margin-top:30px;margin-bottom:14px;line-height:1.65}
+.playmity-page .decision-grid p{max-width:560px}
+.playmity-page .confidential-disclosure{max-width:900px}
+@media(max-width:640px){.playmity-page .playmity-evidence{margin-top:24px}.playmity-page .playmity-evidence figcaption{font-size:13px}.playmity-page .case-next{gap:20px}.playmity-page .case-next a{max-width:100%;overflow-wrap:anywhere}}
+
+.playmity-page .case-header h1{overflow-wrap:anywhere}
+.playmity-page .case-meta>div{min-width:0}
+
+/* Selected tour detail: full source remains available via the image link. */
+.playmity-page .playmity-tour-detail{margin:32px 0 0;max-width:100%}
+.playmity-page .playmity-detail-layout{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);gap:clamp(28px,4vw,56px);align-items:center}
+.playmity-page .playmity-detail-image{display:block;min-width:0;width:100%}
+.playmity-page .playmity-detail-image img{display:block;width:100%;height:auto;max-width:100%}
+.playmity-page .playmity-detail-notes{min-width:0}
+.playmity-page .playmity-detail-notes h3{font-size:26px;margin:0 0 24px}
+.playmity-page .playmity-detail-notes ol{padding-left:24px;margin:0}
+.playmity-page .playmity-detail-notes li{padding-left:6px;margin-bottom:20px;scroll-margin-top:30px}
+.playmity-page .playmity-detail-notes p{font-size:16px;line-height:1.6;margin:6px 0 0}
+.playmity-page .playmity-tour-detail figcaption{font-size:14px;line-height:1.6;color:var(--muted);max-width:900px;margin-top:24px}
+@media(max-width:800px){.playmity-page .playmity-detail-layout{grid-template-columns:minmax(0,1fr)}.playmity-page .playmity-detail-image{max-width:700px;margin-inline:auto}}
+@media(max-width:640px){.playmity-page .playmity-tour-detail{margin-top:24px}.playmity-page .playmity-detail-notes h3{font-size:24px}.playmity-page .playmity-detail-notes p{font-size:15px}.playmity-page .playmity-tour-detail figcaption{font-size:13px}}
